@@ -1,0 +1,102 @@
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #2ac1bc;
+}
+
+.section__contents {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+.section__contents img {
+  width: 400px;
+}
+
+.section__contents div:last-child {
+  color: #fff;
+  font-weight: 100;
+  margin-top: 30px;
+  line-height: 1.2rem;
+}
+
+.section__img1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.section__img1 img {
+  display: block;
+}
+.section__img1 img:first-child {
+  width: 190px;
+  transform: translateX(-200px);
+}
+
+.section__img1 img:last-child {
+  width: 160px;
+  transform: translateX(-180px) translateY(-200px);
+}
+
+.section__img2,
+.section__img3,
+.section__img4,
+.section__img5,
+.section__img6 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.section__img2,
+.section__img3,
+.section__img4 {
+  transform: translateY(200px);
+}
+
+.section__img5 {
+  transform: translateX(200px);
+}
+
+.section__img2 img {
+  width: 380px;
+}
+
+.section__img3 img,
+.section__img4 img,
+.section__img5 img,
+.section__img6 img {
+  width: 300px;
+}
+
+.section__download {
+  position: fixed;
+  width: 170px;
+  top: 135px;
+  left: 70%;
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+}
+
+.section__download img {
+  width: 170px;
+}
+
+.section1-active {
+  animation: section1Active 1s forwards;
+}
+
+.section-img-up {
+  transform: translateY(0);
+  transition: 1s;
+}
+
+@keyframes section1Active {
+  from {
+  }
+  to {
+    transform: unset;
+  }
+}

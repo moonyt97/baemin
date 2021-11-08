@@ -1,0 +1,19 @@
+.main {
+  background-image: url(https://www.baemin.com/img/main_05@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mainsection__download img {
+  width: 240px;
+  position: absolute;
+  bottom: 0px;
+  right: -50px;
+}
+
+.rider {
+  position: absolute;
+  right: 0;
+  width: 170px;
+}
