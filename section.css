@@ -100,3 +100,21 @@ section {
     transform: unset;
   }
 }
+
+@media only screen and (max-width: 1020px) {
+  .section__download {
+    top: 60px;
+  }
+  .section__download img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .section__download {
+    top: 60px;
+  }
+  .section__download img {
+    width: 180px;
+  }
+}

@@ -3,11 +3,8 @@
   top: 50%;
   right: 20px;
   opacity: 1;
+  transform: translateY(-50%);
 }
-.page li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 10px 0;
-  background-color: #fff;
+.page li img {
+  width: 30px;
 }

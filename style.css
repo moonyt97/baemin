@@ -12,10 +12,26 @@ body {
   width: 865px;
   height: 100%;
   position: relative;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+.hidden-dot {
+  display: none;
+}
+
+@media only screen and (max-width: 1020px) {
+  .inner {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .inner {
+    width: 100%;
+  }
 }
